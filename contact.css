@@ -1,0 +1,175 @@
+body {
+    font-family: "Young Serif", serif;
+    background-color: #f5f6f8;
+    flex-wrap: wrap;
+}
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* title */
+.title {
+  margin-left: 20px;
+  color: #F7A800;
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* lists */
+.list-items {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+/* list item color */
+.list-items li a{
+  color: black;
+  text-decoration: none;
+}
+/* list effect */
+.list-items li a:hover {
+  color: #F7A800;
+}
+
+/* icon */
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+/* cart icon */
+.cart_icon {
+  display: flex;
+  align-items: center;
+}
+
+/* cart effect */
+.cart_icon:hover {
+  color: #FF7A00;
+}
+
+/*  sign in*/
+.btn {
+  color:white;
+  border: solid wheat 2px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  background-color: orange;
+}
+
+/* sign in hover */
+.btn:hover {
+  background-color:white;
+  color: black;
+}
+
+
+/* footer */
+.footer {
+  background: #111111;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  margin-top: 50px;
+  font-size: 14px;
+}
+.container {
+    background: #fff;
+    width: 98%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    color: grey;
+    border-bottom: solid 2px;
+    text-align: center;
+}
+
+.container p {
+    text-align: center;
+}
+
+.container__content {
+    display: flex;
+    gap: 30px;
+}
+
+.container__content__form {
+    flex: 1;
+}
+
+.container__content__form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+.container__content__form input {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+
+}
+
+.container__content__form input:hover {
+    border-color: red;
+    color: red;
+}
+.container__content__form textarea:hover{
+    border-color:red;
+    color: red;
+}
+
+.container__content__form textarea {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    height: 120px;
+}
+
+.container__content__form button {
+    background-color: red;
+    color: #ccc;
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container__content__form button:hover {
+    background-color: #b73525;
+}
+
+.container__info {
+    font-family: Arial, sans-serif;
+    flex: 1;
+}
+
+.container__info h2 {
+    margin-bottom: 15px;
+}
+
+.container__info p {
+    
+    color: #444;
+}
+
+.container__info img {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+}

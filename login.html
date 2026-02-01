@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body class="login">
+    <!-- Nav Bar -->
+    <nav class="navbar">
+        <h1 class="title">ALL IN ONE RESTAURANT</h1>
+        <!-- navbar list-items -->
+        <ul class="list-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="combo.html">Combo-offer</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <!-- header icons -->
+        <div class="icons">
+            <a href="#" class="cart_icon"><i class="fa-solid fa-bag-shopping"></i>
+            </a>
+            <a href="login.html" class="btn">Sign In
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            </a>
+            <a href="#" class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+    </nav>
+<!-- Floating food icons -->
+<div class="food">🍕</div>
+<div class="food">🍔</div>
+<div class="food">🍟</div>
+<div class="food">🌮</div>
+<div class="food">🍩</div>
+<div class="food">🥗</div>
+
+<div class="card">
+  <form>
+    <h2>Welcome Back 🍕</h2>
+
+    <input type="email" placeholder="Email" required>
+
+    <div class="password-box">
+      <input type="password" id="loginPass" placeholder="Password" required>
+      <span onclick="togglePassword('loginPass')">👁</span>
+    </div>
+
+    <button type="submit">Login</button>
+
+    <p class="or">OR</p>
+
+    <div class="social">
+      <button class="social-btn google">
+        <img src="images/google.svg">
+        <span>Google</span>
+      </button>
+
+      <button class="social-btn facebook">
+        <img src="images/facebook.svg">
+        <span>Facebook</span>
+      </button>
+
+      <button class="social-btn github">
+        <img src="images/github.svg">
+        <span>GitHub</span>
+      </button>
+    </div>
+
+    <p class="switch">
+      New user? <a href="register.html">Create account</a>
+    </p>
+  </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

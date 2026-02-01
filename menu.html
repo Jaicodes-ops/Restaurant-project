@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menubar</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="./Menu.css">
+
+</head>
+
+<body>
+
+    <!-- === Add: Header (brand + cart) === -->
+       <!-- Nav Bar -->
+    <nav class="navbar">
+        <h1 class="title">ALL IN ONE RESTAURANT</h1>
+        <!-- navbar list-items -->
+        <ul class="list-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="combo.html">Combo-offer</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- header icons -->
+        <div class="icons">
+            <a href="#" class="cart_icon"><i class="fa-solid fa-bag-shopping"></i>
+            </a>
+            <a href="login.html" class="btn">Sign In
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            </a>
+            <a href="#" class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+    </nav>
+
+
+
+    <div class="input_container">
+        <div class="input_field">
+            <i class="fa-solid fa-magnifying-glass" style="color: #16181d;"></i>
+            <input type="text" placeholder="Search for your favourite food here">
+        </div>
+
+    </div>
+
+    <!-- Side bar -->
+    <div class="Choose_Category">
+        <h1>Choose Category</h1>
+        <ul>
+            <li>🍕<a href="#">Pizza</a></li>
+            <li>🍔<a href="#">Burger</a></li>
+            <li>🥗<a href="#">Salad</a></li>
+            <li>🍜<a href="#">Pasta</a></li>
+            <li>🍚<a href="#">Rice</a></li>
+            <li>🍷<a href="#">Drinks</a></li>
+            <li>🍨<a href="#">Desserts</a></li>
+            <li>🍚<a href="#">Biriyani</a></li>
+        </ul>
+    </div>
+
+    <!-- All Food items(Main Content) -->
+    <div class="food-items">
+        <div class="item">
+            <img src="images/Pizza1.jpg.jpeg" alt="Pizza">
+            <h3>Veg Pizza</h3>
+            <p></p>
+            <button>Order Now</button>
+        </div>
+        <div class="item">
+            <img src="./images/pizza2.jpg.jpeg" alt="Pizza">
+            <h3>Cheese Pizza</h3>
+            <p></p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="item">
+            <img src="images/Burger1.jpg.jpeg" alt="Burger">
+            <h3>Chicken Burger</h3>
+            <p></p>
+            <button>Order Now</button>
+        </div>
+        <div class="item">
+            <img src="images/Burger2.jpg.jpeg" alt="Burger">
+            <h3>Beef Burger</h3>
+            <p></p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="item">
+            <img src="images/salad1.jpg.jpeg" alt="Salad">
+            <h3>prawn Salad</h3>
+            <p></p>
+            <button>Order Now</button>
+        </div>
+        <div class="item">
+            <img src="images/salad2.jpg.jpeg" alt="Salad">
+            <h3>Avacado Salad</h3>
+            <p></p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="item">
+            <img src="images/pasta1.jpg.jpeg" alt="Pasta">
+            <h3>Nuts Pasta</h3>
+            <p></p>
+            <button>Order Now</button>
+        </div>
+        <div class="item">
+            <img src="images/pasta2.jpg.jpeg" alt="Pasta">
+            <h3>Aglio olive Pasta</h3>
+            <p></p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="item">
+            <img src="images/Rice1.jpg.jpeg" alt="Rice">
+            <h3>Jeera Rice</h3>
+            <p></p>
+            <button>Order Now</button>
+        </div>
+        <div class="item">
+            <img src="images/Rice2.jpg.jpeg" alt="Rice">
+            <h3>Mixed Rice</h3>
+            <p></p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="item">
+            <img src="images/Drink1.jpg.jpeg" alt="Drink">
+            <h3>Orange Drinks</h3>
+            <p></p>
+            <button>Order Now</button>
+
+        </div>
+        <div class="item">
+            <img src="images/Drink2.jpg.jpeg" alt="Drink">
+            <h3>Mojito Drinks</h3>
+            <p></p>
+            <button>Order Now</button>
+
+        </div>
+
+        <div class="item">
+            <img src="images/Dessert1.jpg.jpeg" alt="Dessert">
+            <h3>cake Dessert</h3>
+            <p></p>
+            <button>Order Now</button>
+
+        </div>
+
+        <div class="item">
+            <img src="images/Dessert2.jpg.jpeg" alt="Dessert">
+            <h3>Strawberry Dessert</h3>
+            <p></p>
+            <button>Order Now</button>
+
+        </div>
+        <div class="item">
+            <img src="images/Biriyani1.jpg.jpeg" alt="Biriyani">
+            <h3>Chicken Biriyani</h3>
+            <p></p>
+            <button>Order Now</button>
+
+        </div>
+        <div class="item">
+            <img src="images/Biriyani3.jpg.jpeg" alt="Biriyani">
+            <h3>Bracoli Biriyani</h3>
+            <p></p>
+            <button>Order Now</button>
+
+
+        </div>
+
+
+    </div>
+
+    <script src="./Menu.js"></script>
+
+    <!-- === Add: Cart Panel === -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <aside class="cart-panel" id="cartPanel" aria-hidden="true">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button class="cart-close" aria-label="Close cart">×</button>
+        </div>
+
+        <ul class="cart-items" id="cartItems"></ul>
+
+        <div class="cart-footer">
+            <div class="cart-summary"><span id="cartTotalItems">0</span> items</div>
+            <button id="clearCart" class="cart-clear">Clear Cart</button>
+        </div>
+    </aside>
+
+    <!-- === Add: Footer === -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>© 2026 Food Order</div>
+            <div>Made with ❤️</div>
+        </div>
+    </footer>
+
+    <!-- === Add: ensure your script is included (if not already) === -->
+    <script src="Menu.js"></script>
+
+</body>
+
+</html>

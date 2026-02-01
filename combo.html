@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combo-Offers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="combo.css">
+</head>
+
+<body>
+        <!-- Nav Bar -->
+    <nav class="navbar">
+        <h1 class="title">ALL IN ONE RESTAURANT</h1>
+        <!-- navbar list-items -->
+        <ul class="list-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="combo.html">Combo-offer</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.css">Contact</a></li>
+        </ul>
+        <!-- header icons -->
+        <div class="icons">
+            <a href="#" class="cart_icon"><i class="fa-solid fa-bag-shopping"></i>
+            </a>
+            <a href="login.html" class="btn">Sign In
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            </a>
+            <a href="#" class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+            </div>
+    </nav>
+    <!-- Main card Section combo 1-->
+    <section class="container-comb1">
+        <div class="contain-1">
+            <h1>Combo Offers</h1>
+            <h2>To Treat your Taste Buds</h2>
+            <h3 class="combo-tag" id="combo-name">Combo 1</h3>
+            <li id="combo-items">
+                <ul>*<span> Veg Salad</span> </ul>
+                <ul>*<span> Orange Juice</span> </ul>
+            </li>
+            <h3 style="margin-top: 10px;" class="combo-tag">Nutritional Value </h3>
+            <div class="nutrition-01__btn">
+                <h4>Want to Know : </h4>
+                <button id="nutrion-btn" style="margin-left: 10px; font-weight: 700;">Click Me</button>
+            </div>
+
+            <div class="table-nutrition" id="table-01" style="display: none;">
+                <div class="overlaytab"></div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nutrient</th>
+                            <th>Veg Salad with Feta (200g)</th>
+                            <th>Orange Juice (250ml)</th>
+                            <th class="bold">Total Meal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="bold">Calories</td>
+                            <td>180 kcal</td>
+                            <td>110 kcal</td>
+                            <td class="bold">290 kcal</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Protein</td>
+                            <td>6g</td>
+                            <td>2g</td>
+                            <td class="bold">8g</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Total Fat</td>
+                            <td>14g</td>
+                            <td>0.2g</td>
+                            <td class="bold">14.2g</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Carbohydrates</td>
+                            <td> 10g</td>
+                            <td>26g</td>
+                            <td class="bold">36g</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Fiber</td>
+                            <td>4g</td>
+                            <td>0.5g</td>
+                            <td class="bold">4.5g</td>
+                        </tr>
+                        <tr>
+                    </tbody>
+                </table>
+                <button id="closebtn">Close</button>
+            </div>
+            <div class="contain-1__totalorder">
+                <h3>Total Order Price : </h3>
+                <h2 id="combo-price"><strong>₹299/-</strong></h2>
+            </div>
+            <!-- Order price & buy btn -->
+            <div class="container-ordercal">
+                <div class="contain-1__crease">
+                    <button> - </button>
+                    <h3><strong>1</strong></h3>
+                    <button>+</button>
+                </div>
+                <div class="contain-1__totalorderbtn">
+                    <i></i>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="contain-2">
+            <div class="image-wrapper">
+                <i id="prev-btn" class="fa-solid fa-chevron-left nav-btn left"></i>
+                <img id="combo-img" src="img/combo_1- 01.png" alt="Combo 1">
+                <i id="next-btn" class="fa-solid fa-chevron-right nav-btn right"></i>
+            </div>
+
+            <div class="contain-2__card">
+                <p id="combo-rating" style="font-weight: 600;">Combo 1 : ⭐⭐⭐⭐ 4.4</p>
+                <p id="combo-time" style="font-weight: 600;">⌛ 10-18 Mins</p>
+            </div>
+    </section>
+    <!-- Main Card Slide 2 -->
+    <section class="container-comb2" style="display: none;">
+        <div class="contain-1">
+            <h1>Combo Offers</h1>
+            <h2>To Treat your Taste Buds</h2>
+            <h3 class="combo-tag" id="combo-name">Combo 2</h3>
+            <li id="combo-items">
+                <ul>*<span> Mushroom & Cheese Omblete</span> </ul>
+                <ul>*<span> Banana Shake </span> </ul>
+            </li>
+            <h3 style="margin-top: 10px;" class="combo-tag">Nutritional Value </h3>
+            <div class="nutrition-01__btn">
+                <h4>Want to Know : </h4>
+                <button id="nutrion-btn2" style="margin-left: 10px; font-weight: 700;">Click Me</button>
+            </div>
+
+            <div class="table-nutrition" id="table-02" style="display: none;">
+                <div class="overlaytab"></div>
+                <h2>Nutritional Value Sheet</h2>
+
+                <table>
+                    <tr>
+                        <th>Nutrient</th>
+                        <th>Mushroom & Cheese Omelette (2 Eggs)</th>
+                        <th>Banana Shake (250ml, with Milk)</th>
+                        <th>Total Meal</th>
+                    </tr>
+                    <tr>
+                        <td>Calories</td>
+                        <td> 320 kcal</td>
+                        <td>230 kcal</td>
+                        <td>550 kcal</td>
+                    </tr>
+                    <tr>
+                        <td>Protein</td>
+                        <td>18g</td>
+                        <td>8g</td>
+                        <td>26g</td>
+                    </tr>
+                    <tr>
+                        <td>Total Fat</td>
+                        <td>24g</td>
+                        <td>5g</td>
+                        <td>29g</td>
+                    </tr>
+                    <tr>
+                        <td>Carbohydrates</td>
+                        <td>4g</td>
+                        <td>38g</td>
+                        <td>42g</td>
+                    </tr>
+                    <tr>
+                        <td>Fiber</td>
+                        <td>1g</td>
+                        <td>3g</td>
+                        <td>4g</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td>Sugar</td>
+                        <td>1g</td>
+                        <td>22g (Natural)</td>
+                        <td>23g</td>
+                    </tr>
+                </table>
+                <button id="closebtn2">Close</button>
+            </div>
+            <div class="contain-1__totalorder">
+                <h3>Total Order Price : </h3>
+                <h2 id="combo-price"><strong>₹149/-</strong></h2>
+            </div>
+            <!-- Order price & buy btn -->
+            <div class="container-ordercal">
+                <div class="contain-1__crease">
+                    <button> - </button>
+                    <h3><strong>1</strong></h3>
+                    <button>+</button>
+                </div>
+                <div class="contain-1__totalorderbtn">
+                    <i></i>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="contain-2">
+            <div class="image-wrapper">
+                <i id="prev-btn" class="fa-solid fa-chevron-left nav-btn left"></i>
+                <img id="combo-img2" src="img/combo-2.png" alt="Combo 1">
+                <i id="next-btn" class="fa-solid fa-chevron-right nav-btn right"></i>
+            </div>
+
+            <div class="contain-2__card">
+                <p id="combo-rating" style="font-weight: 600;">Combo 2 : ⭐⭐⭐⭐ 4.6</p>
+                <p id="combo-time" style="font-weight: 600;">⌛ 15-20 Mins</p>
+            </div>
+    </section>
+    <!--Main card Combo 3 -->
+    <section class="container-comb3" style="display: none;">
+        <div class="contain-1">
+            <h1>Combo Offers</h1>
+            <h2>To Treat your Taste Buds</h2>
+            <h3 class="combo-tag" id="combo-name">Combo 3</h3>
+            <li id="combo-items">
+                <ul>*<span> Paneer Butter Masala</span> </ul>
+                <ul>*<span> Butter Naan</span> </ul>
+                <ul>*<span> Apple Juice</span> </ul>
+            </li>
+            <h3 style="margin-top: 10px;" class="combo-tag">Nutritional Value </h3>
+            <div class="nutrition-01__btn">
+                <h4>Want to Know : </h4>
+                <button id="nutrion-btn3" style="margin-left: 10px; font-weight: 700;">Click Me</button>
+            </div>
+
+            <div class="table-nutrition" id="table-03" style="display: none;">
+                <div class="overlaytab"></div>
+                <h2>Nutritional Breakdown: Paneer Meal</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Serving Size</th>
+                            <th>Calories (kcal)</th>
+                            <th>Protein (g)</th>
+                            <th>Fat (g)</th>
+                            <th>Carbs (g)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Paneer Butter Masala</td>
+                            <td>1 bowl (approx. 250g)</td>
+                            <td>450 - 550</td>
+                            <td>15 - 18</td>
+                            <td>35 - 40</td>
+                            <td>12 - 15</td>
+                        </tr>
+                        <tr>
+                            <td>Butter Naan</td>
+                            <td>1 piece (approx. 80g)</td>
+                            <td>260 - 300</td>
+                            <td>8 - 10</td>
+                            <td>10 - 12</td>
+                            <td>45 - 50</td>
+                        </tr>
+                        <tr>
+                            <td>Apple Juice</td>
+                            <td>1 glass (approx. 250ml)</td>
+                            <td>110 - 120</td>
+                            <td>0.5</td>
+                            <td>0</td>
+                            <td>28 - 30</td>
+                        </tr>
+                        <tr class="total-row">
+                            <td>Total Meal</td>
+                            <td>Full Serving</td>
+                            <td>820 - 970</td>
+                            <td>23.5 - 28.5</td>
+                            <td>45 - 52</td>
+                            <td>85 - 95</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button id="closebtn3">Close</button>
+            </div>
+            <div class="contain-1__totalorder">
+                <h3>Total Order Price : </h3>
+                <h2 id="combo-price"><strong>₹399/-</strong></h2>
+            </div>
+            <!-- Order price & buy btn -->
+            <div class="container-ordercal">
+                <div class="contain-1__crease">
+                    <button> - </button>
+                    <h3><strong>1</strong></h3>
+                    <button>+</button>
+                </div>
+                <div class="contain-1__totalorderbtn">
+                    <i></i>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="contain-2">
+            <div class="image-wrapper">
+                <i id="prev-btn" class="fa-solid fa-chevron-left nav-btn left"></i>
+                <img id="combo-img3" src="img/combo_3.png" alt="Combo 3">
+                <i id="next-btn" class="fa-solid fa-chevron-right nav-btn right"></i>
+            </div>
+
+            <div class="contain-2__card">
+                <p id="combo-rating" style="font-weight: 600;">Combo 3 : ⭐⭐⭐🌟 4.9</p>
+                <p id="combo-time" style="font-weight: 600;">⌛ 20-30 Mins</p>
+            </div>
+    </section>
+    <!-- Main Card Slide 4 -->
+    <section class="container-comb4" style="display: none;">
+        <div class="contain-1">
+            <h1>Combo Offers</h1>
+            <h2>To Treat your Taste Buds</h2>
+            <h3 class="combo-tag" id="combo-name">Combo 4</h3>
+            <li id="combo-items">
+                <ul>*<span> Black Rice Pudding</span> </ul>
+                <ul>*<span> Pomegranate Juice</span> </ul>
+            </li>
+            <h3 style="margin-top: 10px;" class="combo-tag">Nutritional Value </h3>
+            <div class="nutrition-01__btn">
+                <h4>Want to Know : </h4>
+                <button id="nutrion-btn4" style="margin-left: 10px; font-weight: 700;">Click Me</button>
+            </div>
+
+            <div class="table-nutrition" id="table-04" style="display: none;">
+                <div class="overlaytab"></div>
+                <h2>Nutritional Profile: Kavuni Dessert & Antioxidant Juice</h2>
+
+                <table>
+                    <tr>
+                        <th>Nutrient</th>
+                        <th>Black Rice Pudding (Per Serving)</th>
+                        <th>Pomegranate Juice (Per Glass)</th>
+                        <th>Health Benefit</th>
+                    </tr>
+                    <tr>
+                        <td class="highlight">Calories</td>
+                        <td>280 kcal</td>
+                        <td>120 kcal</td>
+                        <td>Energy Balance</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">Carbohydrates</td>
+                        <td>42g</td>
+                        <td>30g</td>
+                        <td>Complex & Simple Carbs</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">Fiber</td>
+                        <td>4.5g</td>
+                        <td>1.0g</td>
+                        <td>Digestive Wellness</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">Protein</td>
+                        <td>5.2g</td>
+                        <td>1.5g</td>
+                        <td>Muscle Maintenance</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">Healthy Fats</td>
+                        <td>9g (from Coconut Milk)</td>
+                        <td>0.2g</td>
+                        <td>Heart & Brain Health</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">Antioxidants</td>
+                        <td>High (Anthocyanins)</td>
+                        <td>High (Polyphenols)</td>
+                        <td>Anti-inflammatory</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">Main Vitamins</td>
+                        <td>Vitamin E, B1</td>
+                        <td>Vitamin C, K</td>
+                        <td>Immunity & Skin Glow</td>
+                    </tr>
+                </table>
+                <button id="closebtn4">Close</button>
+            </div>
+            <div class="contain-1__totalorder">
+                <h3>Total Order Price : </h3>
+                <h2 id="combo-price"><strong>₹249/-</strong></h2>
+            </div>
+            <!-- Order price & buy btn -->
+            <div class="container-ordercal">
+                <div class="contain-1__crease">
+                    <button> - </button>
+                    <h3><strong>1</strong></h3>
+                    <button>+</button>
+                </div>
+                <div class="contain-1__totalorderbtn">
+                    <i></i>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="contain-2">
+            <div class="image-wrapper">
+                <i id="prev-btn" class="fa-solid fa-chevron-left nav-btn left"></i>
+                <img id="combo-img4" src="img/combo_04.png" alt="Combo 4">
+                <i id="next-btn" class="fa-solid fa-chevron-right nav-btn right"></i>
+            </div>
+
+            <div class="contain-2__card">
+                <p id="combo-rating" style="font-weight: 600;">Combo 4 : ⭐⭐⭐⭐ 4.4</p>
+                <p id="combo-time" style="font-weight: 600;">⌛ 20-25 Mins</p>
+            </div>
+    </section>
+    <script src="combo.js"></script>
+</body>
+
+</html>

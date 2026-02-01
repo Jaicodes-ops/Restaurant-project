@@ -1,0 +1,239 @@
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* body */
+body {
+  background-color: papayawhip;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* title */
+.title {
+  margin-left: 20px;
+  color: #F7A800;
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* lists */
+.list-items {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+/* list item color */
+.list-items li a{
+  color: black;
+  text-decoration: none;
+}
+/* list effect */
+.list-items li a:hover {
+  color: #F7A800;
+}
+
+/* icon */
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+/* cart icon */
+.cart_icon {
+  display: flex;
+  align-items: center;
+}
+
+/* cart effect */
+.cart_icon:hover {
+  color: #FF7A00;
+}
+
+/*  sign in*/
+.btn {
+  color:white;
+  border: solid wheat 2px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  background-color: orange;
+}
+
+/* sign in hover */
+.btn:hover {
+  background-color:white;
+  color: black;
+}
+
+/* header  */
+.header-message {
+  margin-top: 10px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* chef image */
+.my-image {
+  width: 50%;
+  margin-left: 60px;
+}
+
+/* header text */
+.size {
+  font-size: 80px;
+  color: brown;
+}
+
+/* food color */
+span {
+  color: #FF7A00;
+}
+
+/* chef image size */
+.header-image {
+  width: 50%;
+}
+
+/* restaurant color */
+.color {
+  color: #FF7A00;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* our service container */
+.our_services {
+  padding: 40px;
+  background: transparent;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* about section  */
+.HWD {
+  font-size: 28px;
+  margin: 10px 0;
+  color: black;
+}
+
+/* about section paragraph */
+.para {
+  color: #555;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* dish menu */
+.menu {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  text-align: center;
+  color: #FF7A00;
+  margin-top: 80px;
+}
+
+/* our menu  */
+.heading {
+  text-align: center;
+  color: #FF7A00;
+  margin-top: 100px;
+}
+
+/* dish menu box */
+.card {
+  width: 220px;
+  border: 2px solid #FF7A00;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* equal alignment for menu images */
+.card img {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 15px;
+  object-fit: contain;
+}
+
+/* menu dish font */
+.card h3 {
+  font-size: 18px;
+}
+
+/* dish price */
+.price {
+  color: orange;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* add to cart button */
+button {
+  background: #FF7A00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* cart button hover */
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* footer */
+.footer {
+  background: #111111;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  /* Show hamburger icon */
+  .hamburger {
+    display: block;
+    font-size: 24px;
+  }
+
+  /* Hide menu  */
+  .list-items {
+    display: none;
+    background: white;
+    position: absolute;
+    right: 10px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  /* Show menu when clicked */
+  .list-items.show {
+    display:block;
+  }
+}
